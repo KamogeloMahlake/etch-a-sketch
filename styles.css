@@ -1,5 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 #container {
     display: flex;
+    border: 1px solid; 
+    width: 560px;
+    height: 560px;
+    margin: 10px auto;
+}
 
-    
+button {
+    margin: 10px auto;
 }
